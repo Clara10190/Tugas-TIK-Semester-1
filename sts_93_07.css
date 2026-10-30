@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #fff8ef;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    background-color: #294a16;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.35);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.header h4 {
+    margin: 0;
+    font-size: 30px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #456d2d;
+    border-bottom: 1px solid rgba(255,255,255,0.35);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+.topnav a {
+    display: block;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: 0.2s ease;
+}
+
+
+.topnav a:hover {
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    border-bottom-color: white;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-size: 100%;
+
+}
+
+h1{
+    background-color: none;
+    color: rgb(99, 25, 25);
+    font-family: abcd;
+    font-size: 70px;
+    font-weight: 100;
+
+  text-shadow: 
+    -3px -3px 0 #ffffff,  
+     3px -3px 0 #ffffff,
+    -3px  3px 0 #ffffff,
+     3px  3px 0 #ffffff,
+    -3px  0px 0 #ffffff,
+     3px  0px 0 #ffffff,
+     0px -3px 0 #ffffff,
+     0px  3px 0 #ffffff;
+
+}
+
+@font-face {
+    font-family: abcd;
+    src: url(the_wildeast/The\ Wildeast.ttf);
+}
+
+h2{
+    background-color: white;
+    border-radius: 40px;
+    color: rgb(79, 15, 15);
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 650px;
+    font-size: 25px;
+    font-family: efgh;
+}
+
+@font-face {
+    font-family: efgh;
+    src: url(llpixel/LLPIXEL3.ttf);    
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 2px;
+}
+
+h3{
+    background-color: rgb(144, 181, 133);
+    color: rgb(36, 53, 31);
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 1280px;
+    font-size: 40px;
+    font-family: ijkl;
+
+     text-shadow: 
+    -3px -3px 0 rgb(77, 108, 67),  
+     3px -3px 0 rgb(77, 108, 67),
+    -3px  3px 0 rgb(77, 108, 67),
+     3px  3px 0 rgb(77, 108, 67),
+    -3px  0px 0 rgb(77, 108, 67),
+     3px  0px 0 rgb(77, 108, 67),
+     0px -3px 0 rgb(77, 108, 67),
+     0px  3px 0 rgb(77, 108, 67);
+}
+
+@font-face {
+    font-family: ijkl;
+    src: url(beachday/beachday.ttf);    
+}
+
+div.foto{
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid;
+    border-color: rgb(36, 53, 31);
+
+}
+
+div.isi {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    width: calc(100% - 100px);
+    margin: 40px 40px 20px 60px;
+
+    box-sizing: border-box;
+}
+
+p.bawah {
+    width: calc(100% - 100px);
+    margin: 20px 40px 20px 60px;
+
+    box-sizing: border-box;
+}
+
+
+p {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0;
+
+    flex: 1;
+    width: auto;
+
+    font-family: mnop;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.6;
+
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text p {
+    flex: 1;
+}
+
+@font-face {
+    font-family: mnop;
+    src: url(determination/determination.ttf);    
+}
+
+h1:hover {
+    color: rgb(165, 19, 19);
+    font-size: 73px;
+    transition: 0.3s;
+}
+
+.foto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.footer {
+    background-color: #73a059;
+    padding: 16px;
+    margin-top: 24px;
+    text-align: center;
+    color: white;
+    border-top: 1px solid #497033;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
